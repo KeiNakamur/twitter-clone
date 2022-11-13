@@ -1,0 +1,27 @@
+.timeline {
+    flex: 6.5;
+    border-right: 1px solid #efefef;
+    border-left: 1px solid #efefef;
+    height: 100vh;
+    /* スクロール */
+    overflow-y: scroll;
+}
+
+/* スクロールバーの表示を消す(Chromeのみ) */
+.timeline::-webkit-scrollbar {
+    display: none;
+}
+
+.timeline-header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border-bottom: 1px solid #efefef;
+    padding-left: 20px;
+}
+
+.timeline-header h3 {
+    font-size: 20px;
+    font-weight: 900;
+}
