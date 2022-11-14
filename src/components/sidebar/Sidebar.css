@@ -1,5 +1,6 @@
 .sidebar {
-    margin-left: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 10px;
     flex: 1.9;
 }

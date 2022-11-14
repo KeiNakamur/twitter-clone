@@ -3,6 +3,7 @@ import { Avatar } from '@mui/material'
 import React from 'react'
 import "./Post.css"
 
+
 export const Post = ({ displayName, username, avatar, text }) => {
     return (
         <div className='post'>
